@@ -17,7 +17,7 @@ void spiral(int arr[][1], int row, int col){
     for(int i = top; i<bot; n)
 
 }
-void SuperWave(int arr[][MAX_COL], int row, int col) {
+void SuperWave(int arr[][4], int row, int col) {
     for (int i = 0; i < col; i++) {
         if (i % 2 == 0) {
             for (int j = 0; j < row; j++) {
