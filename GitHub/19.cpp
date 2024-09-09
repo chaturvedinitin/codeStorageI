@@ -7,7 +7,7 @@ enum GameState{
 };
 int main()
 {
-    Game
-    cout << 
+    GameState game1;
+    cout << game1.init << endl;
     return 0;
 }
