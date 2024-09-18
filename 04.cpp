@@ -1,13 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int func(void *Ptr);
-int main(){
-    char *Str = "abcdefghij";
-    func(Str);
-    return 0;
+int* getPointer() {
+    int num = 10;
+    return &num;
 }
-int func(void *Ptr){
-    cout << Ptr;
+int main() {
+    int* ptr = getPointer();
+    cout << *ptr;
     return 0;
 }
