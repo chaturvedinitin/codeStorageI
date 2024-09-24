@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
-void removeDuplicated(Node* &head){
 
+Node* kReverse(Node* &head, int size){
+    
 }
 int main()
 {
